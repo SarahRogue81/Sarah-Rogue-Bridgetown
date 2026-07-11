@@ -41,4 +41,6 @@ const esbuildOptions = {
   }
 }
 
+const outputFolder = "docs"
+
 build(esbuildOptions)
