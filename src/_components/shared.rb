@@ -9,14 +9,14 @@ module Shared
 
       @strategy = Willamette.navbar(
         self,
-        logo: "/willamette/bridgetown-avatar.svg",
+        logo: "/images/logo.webp",
         logo_alt: "Website Logo",
         search: true,
         site_title: metadata.title,
         nav_links: [
           Willamette.link(title: t("nav.blog"), url: "/blog"),
           Willamette.link(title: t("nav.about"), url: "/about"),
-          Willamette.link(icon: "mastodon", icon_family: "brands", icon_label: "Mastodon", title: nil, url: "https://mastodon.social"),
+          Willamette.link(icon: "mastodon", icon_family: "brands", icon_label: "Mastodon", title: nil, url: "https://mastodon.social/#{metadata.mastodon}"),
         ]
       )
     end
@@ -40,13 +40,11 @@ module Shared
         explore_links:,
         follow_links: [
           Willamette.link(icon: "rss", title: "Newsfeed", url: "/feed.xml"),
-          Willamette.link(icon: "bluesky", icon_family: "brands", title: "@myblue", url: "https://bsky.social"),
+          Willamette.link(icon: "bluesky", icon_family: "brands", title: "@Bluesky", url: "https://bsky.app/profile/#{metadata.bluesky}"),
+          Willamette.link(icon: "twitter", icon_family: "brands", title: "@Twitter", url: "https://x.com/#{metadata.twitter.username}"),
         ],
-        subscribe: true,
-        see_also_links: [
-          Willamette.link(icon: "file-lines", title: "Another Project", url: "#/another"),
-          Willamette.link(icon: "keyboard", title: "Personal Journal", url: "#/journal"),
-        ]
+        subscribe: false,
+        see_also_links: []
       )
     end
   end

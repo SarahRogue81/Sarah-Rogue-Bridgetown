@@ -4,8 +4,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Your awesome title
-tagline: This site is totally awesome
-email: your-email@example.com
+title: Sarah's Website
+tagline: geeky, gaming emo🖤 girl
+email: emo-girl@sarah-rogue.me
 description: >-
-  Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, anime, and more. She is a geeky emo girl who loves to share
+author:
+  name: Sarah Rogue
+  twitter: SarahRogue81
+bluesky: "sarah-rogue.me"
+mastodon: "@SarahRogue81"
+twitter:
+  username: SarahRogue81
+  card: summary
+
