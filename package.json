@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "esbuild": "node esbuild.config.js --minify",
-    "esbuild-dev": "node esbuild.config.js --watch"
+    "esbuild-dev": "node esbuild.config.js --watch",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "devDependencies": {
     "esbuild": "^0.25.11",
@@ -14,7 +16,8 @@
     "postcss-import": "^16.1.0",
     "postcss-load-config": "^6.0.1",
     "postcss-preset-env": "^10.4.0",
-    "read-cache": "^1.0.0"
+    "read-cache": "^1.0.0",
+    "wrangler": "^4.110.0"
   },
   "dependencies": {
     "willamette": "^0.10.5"
