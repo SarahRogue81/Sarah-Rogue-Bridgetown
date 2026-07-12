@@ -1,0 +1,146 @@
+= How To Configure Your Fish Prompt
+:author: Sarah Rogue
+:categories: GNU/Linux
+:date: Sat, 09 Aug 2025 04:18:51 -0400
+:description: shows how to get the CachyOS features of the command shell fish into other GNU/Linux like Fedora 42
+:imagesdir: /images/how-to-configure-your-fish-prompt
+:title: How To Configure Your Fish Prompt
+
+first of all, i love the command shell `fish`!!!
+
+but
+
+i'm a complete noob when it comes to `fish` and fishing as well
+
+however 
+
+i love the way `fish` is setup on https://cachyos.org/[CashyOS] but when i switched to https://www.fedoraproject.org/[Fedora] 42, i missed all of the epic CashyOS features that made `fish` even better 
+
+i felt like i had to do something — something like this:
+
+[.article-icon]
+image::python-virtual-environment.webp[command prompt that i want for fish]
+
+== the simple solution 
+
+does't work
+
+and that would be transferring my existing `~/.config/fish` folder to Fedora 
+
+even transferring the CashyOS config folder doesn't work 
+
+so what did i do?
+
+copying and pasting, mainly 
+
+== the solution that worked 
+
+is kinda involved but well worth it imho
+
+first, let's start with aliases
+
+== aliases
+
+CachyOS has some good ones but i came up with a few of my own
+
+from my link:/src/how-to-configure-your-fish-prompt/alias.fish[`~/.config/fish/conf.d/alias.fish`] file:
+
+```
+# Replace ls with eza
+alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll 'eza -l --color=always --group-directories-first --icons'  # long format
+alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l. "eza -a | grep -e '^\.'"                                   # show only dotfiles
+alias lal 'eza -al --color=always --group-directories-first --icons'
+alias ls 'eza --color=always --group-directories-first --icons'
+
+# Common use
+alias psmem 'ps auxf | sort -nr -k 4'
+alias psmem10 'ps auxf | sort -nr -k 4 | head -10'
+alias .. 'cd ..'
+alias ... 'cd ../..'
+alias .... 'cd ../../..'
+alias ..... 'cd ../../../..'
+alias ...... 'cd ../../../../..'
+alias dir 'dir --color=auto'
+alias vdir 'vdir --color=auto'
+alias grep 'grep --color=auto'
+alias fgrep 'grep -F --color=auto'
+alias egrep 'grep -E --color=auto'
+alias hw 'hwinfo --short'                                           # Hardware Info
+
+# Get the error messages from journalctl
+alias jctl "journalctl -p 3 -xb"
+
+# root commands
+alias dnf 'sudo dnf5'
+alias reboot 'sudo reboot'
+alias shutdown 'sudo systemctl poweroff'
+alias systemctl 'sudo systemctl'
+alias update 'sudo dnf5 --refresh update'
+alias yum 'sudo dnf5'
+
+# use nvim
+alias vi nvim
+# don't use the bash version of which
+alias which 'type -P'
+```
+
+**WARNING**: be sure you have `eza` installed as it isn't, by default, on Fedora 42. if you don't, your `ls` command will quit working due to the alias
+
+```
+sudo dnf install eza
+```
+
+finally, let's move onto the epic CachyOS `fish` prompt
+
+== main prompt
+
+this one had me racking my small, tiny brain
+
+but
+
+i finally figured it out
+
+the link:/src/how-to-configure-your-fish-prompt/fish_prompt.fish[`funced fish_prompt`] command lets you edit your prompt
+
+down at the very bottom of the file, i changed it to:
+
+```
+if set -q VIRTUAL_ENV
+    set -f venv_name (basename "$VIRTUAL_ENV")" "
+else
+    set -f venv_name ""
+end
+
+echo -s \n (set_color red) (prompt_pwd -d 70) (set_color brblack) (echo (fish_vcs_prompt) | sed 's/[()]//g')
+echo -n -s $venv_name $normal $suffix " "
+```
+
+what i learned is that `set -q` queries to see if the variable is set or unset
+
+and
+
+`set -f` sets the variable for the scope of the function
+
+also, in order to get the virtual environment part to work
+
+you need to add the following line to your link:/src/how-to-configure-your-fish-prompt/environ.fish[`~/.config/fish/conf.d/environ.fish`] file:
+
+```
+set -gx VIRTUAL_ENV_DISABLE_PROMPT true
+```
+
+== conclusion
+
+i learned a lot about `fish` and got a bunch of epic aliases for my Fedora 42 OS
+
+you can also link:/src/how-to-configure-your-fish-prompt/fish-config.tar.xz[download] my `fish` configuration which has everything done for you
+
+```
+> ~/.config/
+> rm -rf fish    # unless you've already made changes
+> tar Jxvf ~/Downloads/fish-config.tar.xz
+```
+
+thank you for reading and have a fun day!!!

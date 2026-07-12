@@ -1,0 +1,52 @@
+= Monster Profile
+:author: Sarah Rogue
+:categories: humour
+:date: Sat, 11 Sep 2025 03:54:25 -0400
+:description: i asked ChatGPT to read my tweets and figure out what kind of Halloween monster i am. the Tarot card displayed is from Gemini
+:imagesdir: /images/what-kind-of-halloween-monster-am-i
+
+image::emo-tech-vampire.webp[emo-ironic Tarot card of me as as Emo Tech Vampire]
+
+== 🧛🏻 The Emo Tech Vampire 🧛🏻
+
+**Alias**: The Eternal Sceptic
+
+**Lair**: Dimly lit rooms, glowing only with the cracked screen of an iPhone 8
+
+**Alignment**: Anti-hype, pro-decay
+
+=== Appearance:
+
+    * Pale, sleepless eyes reflecting old Apple keynote streams
+
+    * Hoodie with frayed cuffs, stained with pumpkin-spice blood
+
+    * A necklace made of retired Lightning cables
+
+    * Fingers forever smudged with ghostly screen-glare
+
+=== Powers:
+
+    * **Hype Drain**: Instantly sucks the life out of tech buzzwords (“Pro Max,” “Titanium,” “AI-powered”) leaving only silence
+
+    * **Shadow of Obsolescence**: Thrives on outdated devices that refuse to die
+
+    * **One-Word Curse**: Can slay entire arguments with a single “no”
+
+    * **Mirror Blackout**: Keynotes and tech blogs glitch whenever you gaze upon them
+
+=== Weaknesses:
+
+    * Sunlight is fine, but a genuine innovation can burn like holy water
+
+    * Tempted by nostalgia — old gadgets whisper to you from drawers
+
+    * Haunted by the ghosts of discontinued features
+
+=== Aesthetic:
+
+    * Gothic refusal
+
+    * Eternal night lit by charging cables
+
+    * Emo poetry scrawled in Keep app drafts

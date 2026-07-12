@@ -1,0 +1,17 @@
+= it's Christmas time!
+:author: Sarah Rogue
+:categories: holiday
+:date: Thu, 25 Dec 2025 0:00:00 -0400
+:description: Merry Christmas!!!
+:title: it's Christmas time!
+
+[sr-text-centre sr-xxxlarge]
+--
+🎄 🎁 🎄
+
+[sr-red]#Ho Ho Ho!#
+
+[sr-green]#Merry Christmas!!!#
+
+🎄 🎁 🎄
+--

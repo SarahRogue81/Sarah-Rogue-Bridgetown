@@ -1,0 +1,15 @@
+= Happy New Year
+:author: Sarah Rogue
+:categories: holiday
+:date: Wed, 01 Jan 2026 00:00:00 -0400
+:description: Happy New Year!!!
+:title: Happy New Year
+
+[sr-text-centre sr-xxxlarge]
+--
+🎈 🎉 🥳 🎈
+
+Happy New Year!!!
+
+🎈 🎉 🥳 🎈
+--
