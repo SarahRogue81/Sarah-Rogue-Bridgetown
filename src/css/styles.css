@@ -1,0 +1,12 @@
+div.paragraph,
+div.listingblock {
+    padding-bottom: 1rem;
+}
+
+.sr-text-centre {
+    text-align: center;
+}
+
+.sr-xxxlarge {
+    font-size: 48px;
+}
