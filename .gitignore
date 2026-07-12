@@ -41,8 +41,5 @@ yarn-debug.log*
 !/tmp/pids/
 !/tmp/pids/.keep
 
-# GitHub Pages folder
-docs/
-
 # Claude Code
 .claude/
