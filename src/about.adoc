@@ -1,0 +1,46 @@
+= about me
+
+:layout: page
+:title: about me
+:author: Sarah Rogue
+:date: Sat, 11 Jul 2026 23:57:29 -0400
+
+hey there, i'm **Sarah Rogue**! welcome to my little corner of the web. i'm a geeky emo🖤 girl who spends way too much time staring at screens, tweaking terminal prompts, and breaking (then fixing) operating systems
+
+here's a bit about who i am, what i do, and how i ended up here
+
+---
+
+== 🧛🏻 the emo tech vampire
+
+if you want to understand my online vibe, look no further than my official **Monster Profile**, which chatgpt generated after reading my tweets:
+
+-   **alias**: The Eternal Sceptic
+-   **lair**: Dimly lit rooms, glowing only with the cracked screen of an iPhone 8
+-   **alignment**: Anti-hype, pro-decay
+
+i'm all about that low-light, high-tech life. if there is a dark mode available, you can bet it's turned on
+
+---
+
+== 🐧 my linux love & terminal tweaking
+
+i am a huge gnu/linux enthusiast. i love customized setups and digging deep into config files. here are some of my personal tech highlights:
+
+-   **the fish shell**: i absolutely love the command shell `fish`even though i'm a complete noob when it comes to fish (and actual fishing as well), i was determined to get my terminal looking and acting exactly how i wanted. when i switched from *CachyOS* to **Fedora 42**, i spent hours racking my tiny brain to replicate CachyOS's epic prompt, custom aliases, and virtual environments. 
+-   **kde plasma & google drive hacks**: when dolphin (the kde file manager) refused to play nice with google drive on arch linux, i didn't give up. i hacked the `google.provider` xml file using kate, replaced it with gnome's provider configuration, logged in with my passkeys, and got it working beautifully!
+-   **the great winboat experiment**: i tried out *WinBoat* to run windows 11 pro inside docker on gnu/linux. i completely messed up the initial installation and had a nightmare of a time uninstalling the docker images. once i got it running via qemu in my browser, i realized something funny—i didn't even need windows! my gaming framerates on cachyos are identical to my native windows partition, and since i can run microsoft 365 in my browser, i can happily say "sorry, microsoft"
+
+---
+
+== 🎭 my soundtrack & state of mind
+
+sometimes the world feels a little bleak, and that's when i relate to _Gangle's Mask Song_ (**The Amazing Digital Circus**, featuring Marissa Lenti):
+
+> so i mask mask mask how i feel feel feel til i don't don't don't know what is real real real
+
+i might stay in all night and wear my insecurity like a badge of honor, but hey — bipolarity and insecurity look pretty good on me
+
+---
+
+*this page was crafted with love (and dark-mode glowing screen energy).*
