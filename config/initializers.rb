@@ -119,5 +119,20 @@ Bridgetown.configure do |config|
     enabled true
   end
 
-  init :"willamette" 
+  init :"willamette"
+
+  # Willamette's built-in Pagefind indexing hook hardcodes the "output" folder,
+  # but this site builds to `destination: docs` (see bridgetown.config.yml).
+  # Replace it with a corrected hook that indexes the real destination.
+  Bridgetown::Hooks.instance_variable_get(:@registry)[:site]&.reject! do |registration|
+    registration.event == :post_write &&
+      registration.block.source_location&.first.to_s.include?("willamette")
+  end
+
+  unless Bridgetown.env.test?
+    config.hook :site, :post_write do
+      `rm -rf #{config.destination}/pagefind && npx --yes pagefind --site #{config.destination}`
+      Bridgetown.logger.info "Pagefind:", "Wrote search index"
+    end
+  end
 end
