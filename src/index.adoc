@@ -1,0 +1,20 @@
+= welcome to my new website
+
+:layout: default
+:title: welcome to my website
+:author: Sarah Rogue
+:date: Sun, 12 Jul 2026 02:07:09 -0400
+
+welcome to the ultimate digital sandbox where we bend operating systems to our will — because default settings are for the weak!
+
+this corner of the web still serves up all your favourite tech chaos, from custom Linux shell prompt wizardry and running Windows inside Docker, to occasional holiday cheer, and existential cartoon tunes
+
+but 
+
+we are officially entering our silicon-efficient era:
+
+expect this space to get heavily infected with ARM64 fever as we dive deep into the trenches of Android, Windows 11 (ARM64), Linux (ARM64), and whatever the heck Google is cooking up with the new Googlebooks
+
+yes, we are going full mobile-architecture-adjacent, and no, i will not apologize for the sass along the way
+
+grab a coffee, install your dependencies, and try not to break your bootloader
