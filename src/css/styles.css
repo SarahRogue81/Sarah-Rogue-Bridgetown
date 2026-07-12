@@ -1,5 +1,6 @@
 div.paragraph,
-div.listingblock {
+div.listingblock,
+div.imageblock {
     padding-bottom: 1rem;
 }
 
