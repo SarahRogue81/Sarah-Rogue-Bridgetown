@@ -2,3 +2,7 @@ destination: docs
 lang: en_GB
 timezone: America/Indiana/Indianapolis
 url: "https://sarah-rogue.me"
+
+willamette:
+  layout:
+    code_dark: true

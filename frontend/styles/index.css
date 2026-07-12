@@ -8,3 +8,94 @@
   /* --wll-color-brand: rgb(105, 26, 184); */
   /* --wll-layout-padding: 2rem; */
 }
+
+/**
+ * Force dark mode site-wide by default.
+ *
+ * Web Awesome normally switches palettes via a `.wa-dark` class on <html>, but
+ * Willamette's default layout never applies it, so the site is always light.
+ * Rather than editing the layout, we replicate the same token set here (see
+ * `.wa-dark` in @awesome.me/webawesome/dist/styles/themes/default.css) so every
+ * component (buttons, callouts, dialogs, etc.) themes consistently, then layer
+ * the specific black/dark-grey/white look on top.
+ */
+:root {
+  color-scheme: dark;
+
+  --wa-color-surface-raised: var(--wa-color-neutral-10);
+  --wa-color-surface-default: var(--wa-color-neutral-05);
+  --wa-color-surface-lowered: color-mix(in oklab, var(--wa-color-surface-default), black 20%);
+  --wa-color-surface-border: var(--wa-color-neutral-20);
+
+  --wa-color-text-normal: #ffffff;
+  --wa-color-text-quiet: var(--wa-color-neutral-70);
+  --wa-color-text-link: var(--wa-color-brand-70);
+
+  --wa-color-overlay-modal: color-mix(in oklab, black 60%, transparent);
+  --wa-color-overlay-inline: color-mix(in oklab, var(--wa-color-neutral-50) 10%, transparent);
+
+  --wa-color-shadow: color-mix(
+    in oklab,
+    var(--wa-color-surface-lowered) calc(var(--wa-shadow-blur-scale) * 32% + 40%),
+    transparent
+  );
+
+  --wa-color-focus: var(--wa-color-brand-60);
+
+  --wa-color-mix-hover: oklch(from currentColor calc(1 - l) c h) 20%;
+  --wa-color-mix-active: var(--wa-color-surface-default) 20%;
+
+  --wa-color-brand-fill-quiet: var(--wa-color-brand-10);
+  --wa-color-brand-fill-normal: var(--wa-color-brand-20);
+  --wa-color-brand-fill-loud: var(--wa-color-brand-50);
+  --wa-color-brand-border-quiet: var(--wa-color-brand-20);
+  --wa-color-brand-border-normal: var(--wa-color-brand-30);
+  --wa-color-brand-border-loud: var(--wa-color-brand-40);
+  --wa-color-brand-on-quiet: var(--wa-color-brand-60);
+  --wa-color-brand-on-normal: var(--wa-color-brand-70);
+  --wa-color-brand-on-loud: white;
+
+  --wa-color-success-fill-quiet: var(--wa-color-success-10);
+  --wa-color-success-fill-normal: var(--wa-color-success-20);
+  --wa-color-success-fill-loud: var(--wa-color-success-50);
+  --wa-color-success-border-quiet: var(--wa-color-success-20);
+  --wa-color-success-border-normal: var(--wa-color-success-30);
+  --wa-color-success-border-loud: var(--wa-color-success-40);
+  --wa-color-success-on-quiet: var(--wa-color-success-60);
+  --wa-color-success-on-normal: var(--wa-color-success-70);
+  --wa-color-success-on-loud: white;
+
+  --wa-color-warning-fill-quiet: var(--wa-color-warning-10);
+  --wa-color-warning-fill-normal: var(--wa-color-warning-20);
+  --wa-color-warning-fill-loud: var(--wa-color-warning-50);
+  --wa-color-warning-border-quiet: var(--wa-color-warning-20);
+  --wa-color-warning-border-normal: var(--wa-color-warning-30);
+  --wa-color-warning-border-loud: var(--wa-color-warning-40);
+  --wa-color-warning-on-quiet: var(--wa-color-warning-60);
+  --wa-color-warning-on-normal: var(--wa-color-warning-70);
+  --wa-color-warning-on-loud: white;
+
+  --wa-color-danger-fill-quiet: var(--wa-color-danger-10);
+  --wa-color-danger-fill-normal: var(--wa-color-danger-20);
+  --wa-color-danger-fill-loud: var(--wa-color-danger-50);
+  --wa-color-danger-border-quiet: var(--wa-color-danger-20);
+  --wa-color-danger-border-normal: var(--wa-color-danger-30);
+  --wa-color-danger-border-loud: var(--wa-color-danger-40);
+  --wa-color-danger-on-quiet: var(--wa-color-danger-60);
+  --wa-color-danger-on-normal: var(--wa-color-danger-70);
+  --wa-color-danger-on-loud: white;
+
+  --wa-color-neutral-fill-quiet: var(--wa-color-neutral-10);
+  --wa-color-neutral-fill-normal: var(--wa-color-neutral-20);
+  --wa-color-neutral-fill-loud: var(--wa-color-neutral-90);
+  --wa-color-neutral-border-quiet: var(--wa-color-neutral-20);
+  --wa-color-neutral-border-normal: var(--wa-color-neutral-30);
+  --wa-color-neutral-border-loud: var(--wa-color-neutral-40);
+  --wa-color-neutral-on-quiet: var(--wa-color-neutral-60);
+  --wa-color-neutral-on-normal: var(--wa-color-neutral-70);
+  --wa-color-neutral-on-loud: var(--wa-color-neutral-05);
+
+  /* Sarah's requested look: black header/sidebar, dark-grey main, pure white text */
+  --wll-body-background: #000000;
+  --wll-main-background: #1e1e1e;
+}
