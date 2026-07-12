@@ -41,6 +41,7 @@ module Shared
         follow_links: [
           Willamette.link(icon: "rss", title: "Newsfeed", url: "/feed.xml"),
           Willamette.link(icon: "bluesky", icon_family: "brands", title: "@Bluesky", url: "https://bsky.app/profile/#{metadata.bluesky}"),
+          Willamette.link(icon: "github", icon_family: "brands", title: "@GitHub", url: "https://github.com/#{metadata.github}"),
           Willamette.link(icon: "twitter", icon_family: "brands", title: "@Twitter", url: "https://x.com/#{metadata.twitter.username}"),
         ],
         subscribe: false,
