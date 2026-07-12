@@ -1,18 +1,916 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_GB"><generator uri="https://bridgetownrb.com/" version="2.2.2">Bridgetown</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_GB" /><updated>2026-07-11T21:10:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sarah’s Website</title><subtitle>Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, anime, and more. She is a geeky emo girl who loves to share</subtitle><author><name>Sarah Rogue</name></author><entry><title type="html">Your First Post on Bridgetown</title><link href="http://localhost:4000/updates/2026/07/11/welcome-to-bridgetown/" rel="alternate" type="text/html" title="Your First Post on Bridgetown" /><published>2026-07-11T16:48:12-04:00</published><updated>2026-07-11T16:48:12-04:00</updated><id>repo://posts.collection/_posts/2026-07-11-welcome-to-bridgetown.md</id><content type="html" xml:base="http://localhost:4000/updates/2026/07/11/welcome-to-bridgetown/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;bin/bridgetown start&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_GB"><generator uri="https://bridgetownrb.com/" version="2.2.2">Bridgetown</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_GB" /><updated>2026-07-12T04:30:23-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sarah’s Website</title><subtitle>Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, raising her kids, and more. she is a geeky emo girl who loves to share</subtitle><author><name>Sarah Rogue</name></author><entry><title type="html">Mask (Gangle’s Song) (feat. Marissa Lenti)</title><link href="http://localhost:4000/humour/2026/05/17/gangles-song/" rel="alternate" type="text/html" title="Mask (Gangle&apos;s Song) (feat. Marissa Lenti)" /><published>2026-05-17T02:50:25-04:00</published><updated>2026-05-17T02:50:25-04:00</updated><id>repo://posts.collection/_posts/2026-05-17-gangles-song.adoc</id><content type="html" xml:base="http://localhost:4000/humour/2026/05/17/gangles-song/">&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;feel a little bit crazy lately
+wanna set the whole world on fire
+should i jump out of a window, maybe
+no instead i&apos;ll just smile smile smile&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;what&apos;s inside
+i gotta find
+don&apos;t wanna hide
+the real me&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_but_the_world_is_fucking_bleak&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_but_the_world_is_fucking_bleak&quot;&gt;&lt;/a&gt;but the world is fucking bleak&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;so i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;people tell me i have a problem
+cause i wanna stay in all night
+up and down i get low so often
+need a new mask to take me high&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;what&apos;s inside
+i gotta find
+don&apos;t wanna hide
+the real me&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_but_the_world_is_fucking_bleak_2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_but_the_world_is_fucking_bleak_2&quot;&gt;&lt;/a&gt;but the world is fucking bleak&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;so i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_wanna_take_your_mask_away&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_wanna_take_your_mask_away&quot;&gt;&lt;/a&gt;wanna take your mask away&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;no i like it
+it&apos;s okay&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_but_youre_crying_everyday&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_but_youre_crying_everyday&quot;&gt;&lt;/a&gt;but you&amp;#8217;re crying everyday&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;i feel it in a silly way&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_bi_bi_po_polarity&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_bi_bi_po_polarity&quot;&gt;&lt;/a&gt;bi-bi-po-polarity&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and it looks so good on me&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_boy_im_so_glad_i_asked&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_boy_im_so_glad_i_asked&quot;&gt;&lt;/a&gt;boy i&amp;#8217;m so glad i asked&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;that is why i wear a ...&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;insecurity
+it&apos;s a part of me
+maybe that&apos;s okay&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;i want you to see
+the hidden part of me
+should i take my mask off&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_no&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_no&quot;&gt;&lt;/a&gt;NO!&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;so i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and i mask mask mask
+how i feel feel feel
+til i don&apos;t don&apos;t don&apos;t know
+what is real real real&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;and so when i feel down
+and all my thoughts spin round
+i block it out out out
+i block it out&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;text&quot;&gt;feel a little bit crazy lately&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">Happy New Year</title><link href="http://localhost:4000/holiday/2025/12/31/happy-new-year/" rel="alternate" type="text/html" title="Happy New Year" /><published>2025-12-31T23:00:00-05:00</published><updated>2025-12-31T23:00:00-05:00</updated><id>repo://posts.collection/_posts/2026-01-01-happy-new-year.adoc</id><content type="html" xml:base="http://localhost:4000/holiday/2025/12/31/happy-new-year/">&lt;div class=&quot;openblock sr-text-centre sr-xxxlarge&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;🎈 🎉 🥳 🎈&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Happy New Year!!!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;🎈 🎉 🥳 🎈&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">it’s Christmas time!</title><link href="http://localhost:4000/holiday/2025/12/24/its-christmas-time/" rel="alternate" type="text/html" title="it&apos;s Christmas time!" /><published>2025-12-24T23:00:00-05:00</published><updated>2025-12-24T23:00:00-05:00</updated><id>repo://posts.collection/_posts/2025-12-25-its-Christmas-time.adoc</id><content type="html" xml:base="http://localhost:4000/holiday/2025/12/24/its-christmas-time/">&lt;div class=&quot;openblock sr-text-centre sr-xxxlarge&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;🎄 🎁 🎄&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;sr-red&quot;&gt;Ho Ho Ho!&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;sr-green&quot;&gt;Merry Christmas!!!&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;🎄 🎁 🎄&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">Using Google Drive on Arch Linux - KDE Plasma</title><link href="http://localhost:4000/gnu-linux/2025/09/25/using-google-drive-on-archlinux-kde-plasma/" rel="alternate" type="text/html" title="Using Google Drive on Arch Linux - KDE Plasma" /><published>2025-09-25T04:06:51-04:00</published><updated>2025-09-25T04:06:51-04:00</updated><id>repo://posts.collection/_posts/2025-09-25-using-google-drive-on-archlinux-kde-plasma.adoc</id><content type="html" xml:base="http://localhost:4000/gnu-linux/2025/09/25/using-google-drive-on-archlinux-kde-plasma/">&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: i&amp;#8217;ve been told that problems exist with KDE, in general - not just KDE Plasma. so, if you&amp;#8217;re having trouble getting Google Drive to work with Dolphin, these steps may just work anyway&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;also&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i got this info from &lt;a href=&quot;https://reddit.com/r/kde/&quot;&gt;Reddit&lt;/a&gt; but can&amp;#8217;t find the links - sorry about that&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_initial_steps&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_initial_steps&quot;&gt;&lt;/a&gt;initial steps&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;first, install kio-gdrive&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the following command is to install kio-gdrive on Arch Linux. i use CachyOS in particular but any &lt;code&gt;pacman&lt;/code&gt; OS works&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;obviously, you can install kio-gdrive on other GNU/Linux operating systems&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;fish&quot;&gt;sudo pacman -S kio-gdrive&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the problem is that simply installing kio-gdrive doesn&amp;#8217;t work at all with KDE&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;however&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it works just fine with GNOME&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;so, before you go to System Settings, Networking, Oneline Accounts, and add Google&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;do this first:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;fish&quot;&gt;kate /usr/share/accounts/providers/kde/google.provider&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;delete all the contents (every line) and copy and paste this XML doc instead:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;provider&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;google&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;name&amp;gt;&lt;/span&gt;Google&lt;span class=&quot;nt&quot;&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
 
-&lt;p&gt;Bridgetown requires blog post files to be named according to the following format:&lt;/p&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;description&amp;gt;&lt;/span&gt;GNOME-ID, Google Drive and YouTube&lt;span class=&quot;nt&quot;&gt;&amp;lt;/description&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;icon&amp;gt;&lt;/span&gt;im-google&lt;span class=&quot;nt&quot;&gt;&amp;lt;/icon&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;translations&amp;gt;&lt;/span&gt;kaccounts-providers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/translations&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;domains&amp;gt;&lt;/span&gt;.*google\.com&lt;span class=&quot;nt&quot;&gt;&amp;lt;/domains&amp;gt;&lt;/span&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.EXT&lt;/code&gt;&lt;/p&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;template&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;group&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;auth&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;method&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;oauth2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mechanism&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;web_server&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;group&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;oauth2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;group&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;web_server&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Host&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;accounts.google.com&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;AuthPath&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;o/oauth2/auth?access_type=offline&lt;span class=&quot;ni&quot;&gt;&amp;amp;amp;&lt;/span&gt;approval_prompt=force&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;TokenPath&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;o/oauth2/token&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;RedirectUri&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;http://localhost/oauth2callback&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;EXT&lt;/code&gt; is the file extension representing the format used in the file (for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;md&lt;/code&gt; for Markdown). After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ResponseType&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;code&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;as&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Scope&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;[
+              &apos;https://www.googleapis.com/auth/userinfo.email&apos;,
+              &apos;https://www.googleapis.com/auth/userinfo.profile&apos;,
+              &apos;https://www.googleapis.com/auth/calendar&apos;,
+              &apos;https://www.googleapis.com/auth/tasks&apos;,
+              &apos;https://www.googleapis.com/auth/drive&apos;
+          ]&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;as&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;AllowedSchemes&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;[&apos;https&apos;]&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ClientId&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;44438659992-7kgjeitenc16ssihbtdjbgguch7ju55s.apps.googleusercontent.com&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ClientSecret&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;-gMLuQyDiI0XrQS_vx_mhuYF&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;setting&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ForceClientAuthViaRequestBody&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;true&lt;span class=&quot;nt&quot;&gt;&amp;lt;/setting&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/group&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/group&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/group&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/template&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/provider&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;of course, be sure and save the file - it will prompt you for your &lt;code&gt;sudo&lt;/code&gt; password and save the file just fine&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_next_steps&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_next_steps&quot;&gt;&lt;/a&gt;next steps&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;now, go into &lt;strong&gt;System Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;under the &lt;strong&gt;Networking&lt;/strong&gt; section on the left&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;select &lt;strong&gt;Online Accounts&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;on the upper, right, click &lt;strong&gt;+ Add Account&lt;/strong&gt; and choose &lt;strong&gt;Google&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it should look like&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/using-google-drive-on-archlinux-kde-plasma/Online-Accounts-Google-Login.webp&quot; alt=&quot;Gmail login for GNOME&quot; width=&quot;not KDE&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;notice it says GNOME and not KDE&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;enter your Gmail account address and password on the next screens. i use Passkeys, so it&amp;#8217;s a bit different for me, but still works&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;once you&amp;#8217;re logged in and given GNOME all the settings, Dolphin will just work, as-is&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;in Network, Google Drive, of course&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and, obviously, you can pin it as well&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_conclusion&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_conclusion&quot;&gt;&lt;/a&gt;conclusion&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;yes, it&amp;#8217;s a bit of work - but very doable&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the file, above, is also available for you to just download and use as is - it&amp;#8217;s exactly the same as above&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;File&lt;/strong&gt;: &lt;a href=&quot;/src/using-google-drive-on-archlinux-kde-plasma/google.provider&quot;&gt;&lt;code&gt;google.provider&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;md5sum&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;a65ed15fb05cb710409434d5f6b87171&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">Monster Profile</title><link href="http://localhost:4000/humour/2025/09/11/what-kind-of-halloween-monster-am-i/" rel="alternate" type="text/html" title="Monster Profile" /><published>2025-09-11T03:54:25-04:00</published><updated>2025-09-11T03:54:25-04:00</updated><id>repo://posts.collection/_posts/2025-09-11-what-kind-of-halloween-monster-am-i.adoc</id><content type="html" xml:base="http://localhost:4000/humour/2025/09/11/what-kind-of-halloween-monster-am-i/">&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/what-kind-of-halloween-monster-am-i/emo-tech-vampire.webp&quot; alt=&quot;emo-ironic Tarot card of me as as Emo Tech Vampire&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_the_emo_tech_vampire&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_the_emo_tech_vampire&quot;&gt;&lt;/a&gt;🧛🏻 The Emo Tech Vampire 🧛🏻&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Alias&lt;/strong&gt;: The Eternal Sceptic&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Lair&lt;/strong&gt;: Dimly lit rooms, glowing only with the cracked screen of an iPhone 8&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Alignment&lt;/strong&gt;: Anti-hype, pro-decay&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_appearance&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_appearance&quot;&gt;&lt;/a&gt;Appearance:&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pale, sleepless eyes reflecting old Apple keynote streams&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hoodie with frayed cuffs, stained with pumpkin-spice blood&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A necklace made of retired Lightning cables&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fingers forever smudged with ghostly screen-glare&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_powers&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_powers&quot;&gt;&lt;/a&gt;Powers:&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hype Drain&lt;/strong&gt;: Instantly sucks the life out of tech buzzwords (“Pro Max,” “Titanium,” “AI-powered”) leaving only silence&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Shadow of Obsolescence&lt;/strong&gt;: Thrives on outdated devices that refuse to die&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;One-Word Curse&lt;/strong&gt;: Can slay entire arguments with a single “no”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mirror Blackout&lt;/strong&gt;: Keynotes and tech blogs glitch whenever you gaze upon them&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_weaknesses&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_weaknesses&quot;&gt;&lt;/a&gt;Weaknesses:&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sunlight is fine, but a genuine innovation can burn like holy water&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tempted by nostalgia — old gadgets whisper to you from drawers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Haunted by the ghosts of discontinued features&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_aesthetic&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_aesthetic&quot;&gt;&lt;/a&gt;Aesthetic:&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gothic refusal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Eternal night lit by charging cables&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emo poetry scrawled in Keep app drafts&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">WinBoat for GNU/Linux</title><link href="http://localhost:4000/gnu-linux,/windows/2025/09/04/winboat-for-gnu-linux/" rel="alternate" type="text/html" title="WinBoat for GNU/Linux" /><published>2025-09-04T04:14:51-04:00</published><updated>2025-09-04T04:14:51-04:00</updated><id>repo://posts.collection/_posts/2025-09-04-winboat-for-gnu-linux.adoc</id><content type="html" xml:base="http://localhost:4000/gnu-linux,/windows/2025/09/04/winboat-for-gnu-linux/">&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.winboat.app/&quot;&gt;WinBoat&lt;/a&gt; is a GNU/Linux app that runs various versions of Windows. i fucked up the first time installing it and had a bitch of a time uninstalling it&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but first&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i&amp;#8217;ll describe how i got it running before the install&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_initial_install_before_i_fucked_it_up&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_initial_install_before_i_fucked_it_up&quot;&gt;&lt;/a&gt;initial install, before i fucked it up&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WinBoat&amp;#8217;s GitHub &lt;a href=&quot;https://github.com/TibixDev/winboat&quot;&gt;repo&lt;/a&gt; has the &lt;a href=&quot;https://github.com/TibixDev/winboat/releases&quot;&gt;current release&lt;/a&gt; as an AppImage&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;after the download, go to the download folder on the command line and execute&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;chmod +x winboat-X.Y.Z.AppImage&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;where X, Y, and Z are the version number. in my case, v0.7.1. &lt;strong&gt;note&lt;/strong&gt;: this is beta software and earlier today, it was v0.6.13 but changed rn when i just now checked for this writing&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_before_first_run&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_before_first_run&quot;&gt;&lt;/a&gt;before first run&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;install Docker and Docker Compose&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;sudo pacman -S docker docker-compose
 
-&lt;p&gt;Bridgetown also offers powerful support for code snippets:&lt;/p&gt;
+sudo systemctl enable docker
+sudo systemctl start docker
 
-&lt;wll-code class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/wll-code&gt;
+sudo usermod -a -G docker username&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;to start, i use CachyOS, an ArchLinux distro. the first line will probably be different for your distro. the &lt;code&gt;username&lt;/code&gt; at the end is your user name that you use to login to your Desktop Environment&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;finally, be sure the correct Kernel Modules are running&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;echo -e &quot;ip_tables\niptable_nat&quot; | sudo tee /etc/modules-load.d/iptables.conf
+sudo reboot&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_appimagelaucher&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_appimagelaucher&quot;&gt;&lt;/a&gt;AppImageLaucher&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;believe it or not, i&amp;#8217;d rather not use the terminal for launching apps and i have an &lt;code&gt;apps&lt;/code&gt; folder to prove it. so i use AppImageLauncher. to install&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;sudo pacman -S appimagelauncher&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_then_i_fucked_it_all_up&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_then_i_fucked_it_all_up&quot;&gt;&lt;/a&gt;then i fucked it all up&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;when you first run WinBoat, from terminal or otherwise, it displays some sort of BIOS or UEFI. i skipped the FreeRDP step of the pre-installation, which is required for a Remote Desktop Connection. i saw the text and the logo but it went by so fast that i couldn&amp;#8217;t read it. by the time i went back to GitHub to read the README, i was convinced that, somehow, me not installing FreeRDP caused that text to display&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;by that time, the Windows 11 installer was in the middle of downloading and i closed WinBoat thinking that the next time i opened it, it would start over&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it did not start over&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it ran the WinBoat again and, of course, nothing happened&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_so_to_uninstall_the_docker_image&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_so_to_uninstall_the_docker_image&quot;&gt;&lt;/a&gt;so, to uninstall the docker image&lt;/h3&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;sudo docker volume rm winboat
+sudo rm -rf /var/lib/docker/volumes&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;that last line might be unnecessary but i did it anyway (thx Gemini deep research)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_and_so_i_started_over&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_and_so_i_started_over&quot;&gt;&lt;/a&gt;and so i started over&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WinBoat uses QEMU from your default web browser and, below are some pics of the installation and what i did after&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_pics&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_pics&quot;&gt;&lt;/a&gt;pics&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WinBoat lets you install a number of Windows versions, i picked 11 Pro&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/01-winboat-windows-11-download.webp&quot; alt=&quot;Windows 11 downloading&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;then the install begins&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/02-winboat-installing-windows-11.webp&quot; alt=&quot;Windows 11 installing&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;after some restarts, Windows opens with you already logged in&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;sorry that i didn&amp;#8217;t mention it before&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WinBoat, before it creates the Docker image, prompts for RAM, Cores, and Storage Size&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i picked 8 GB, 4, and 64 GB respectively&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it also asks for which version of Windows you want and a password to login - this can be anything as it doesn&amp;#8217;t link to your Microsoft Account&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the next thing i did was a Windows Update&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/03-winboat-windows-update.webp&quot; alt=&quot;Windows Update in grogress&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and also updated the apps in the Microsoft Store&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/04-winboat-microsoft-store-updates.webp&quot; alt=&quot;Microsoft Store apps updating&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the apps all got updated first and then Windows Update finished and prompted for a reboot, which i did&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i had to log in, with password, and was greeted with this minimal desktop and start menu&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/05-winboat-windows-11-desktop.webp&quot; alt=&quot;Windows 11 desktop&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/winboat-for-gnu-linux/06-winboat-windows-11-start-menu.webp&quot; alt=&quot;Windows 11 start menu&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the next Windows update simply installed Defender antivirus signatures, which didn&amp;#8217;t require a reboot&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_caveats&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_caveats&quot;&gt;&lt;/a&gt;caveats&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;because it is running QEMU in a default web browser, gaming isn&amp;#8217;t an option - save maybe the Microsoft games, like Mahjong, Minesweeper, Jigsaw, etc&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;please use Steam/Proton directly on your GNU/Linux machine for gaming, even simple games&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;updating WinBoat to the current version involves stopping a WinBoat Windows service and deleting 16 lines at the bottom of the &lt;code&gt;~/.local/share/applications/appimagekit_*-winboat.desktop&lt;/code&gt; file plus removing the old AppImage in your &lt;code&gt;~/Applications&lt;/code&gt; folder&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;no Bluetooth, microphone input, audio output&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;stopping QEMU from within the WinBoat app does a hard power-off, i believe (but i could be wrong). pausing works just fine. a shutdown within the Windows QEMU environment is the correct way&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it&amp;#8217;s constantly prompting me to stop the WinBoatGuestServer&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the Windows 11 Pro install, upgrades and app updates consume 20.5 GB of storage&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;simply moving the cursor isn&amp;#8217;t smooth&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;it gets the job done&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_last_words&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_last_words&quot;&gt;&lt;/a&gt;last words&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;this project is off to a great start but i doubt i will use it for anything&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i can run Microsoft 365 in my web browser on GNU/Linux and there&amp;#8217;s an app for everything else i want to do&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i&amp;#8217;ve tested running games on CachyOS and the fps is the same as on my native Windows 11 partition&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;so, i really have no need for Windows. sorry, Microsoft&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but this project is awesome, a fave, and &lt;strong&gt;the&lt;/strong&gt; tech talk on &lt;a href=&quot;https://discord.com/&quot;&gt;Discord&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;hope this information helps&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry><entry><title type="html">How To Configure Your Fish Prompt</title><link href="http://localhost:4000/gnu-linux/2025/08/09/how-to-configure-your-fish-prompt/" rel="alternate" type="text/html" title="How To Configure Your Fish Prompt" /><published>2025-08-09T04:18:51-04:00</published><updated>2025-08-09T04:18:51-04:00</updated><id>repo://posts.collection/_posts/2025-08-09-how-to-configure-your-fish-prompt.adoc</id><content type="html" xml:base="http://localhost:4000/gnu-linux/2025/08/09/how-to-configure-your-fish-prompt/">&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;first of all, i love the command shell &lt;code&gt;fish&lt;/code&gt;!!!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i&amp;#8217;m a complete noob when it comes to &lt;code&gt;fish&lt;/code&gt; and fishing as well&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;however&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i love the way &lt;code&gt;fish&lt;/code&gt; is setup on &lt;a href=&quot;https://cachyos.org/&quot;&gt;CashyOS&lt;/a&gt; but when i switched to &lt;a href=&quot;https://www.fedoraproject.org/&quot;&gt;Fedora&lt;/a&gt; 42, i missed all of the epic CashyOS features that made &lt;code&gt;fish&lt;/code&gt; even better&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i felt like i had to do something — something like this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock article-icon&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/images/how-to-configure-your-fish-prompt/python-virtual-environment.webp&quot; alt=&quot;command prompt that i want for fish&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_the_simple_solution&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_the_simple_solution&quot;&gt;&lt;/a&gt;the simple solution&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;does&amp;#8217;t work&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and that would be transferring my existing &lt;code&gt;~/.config/fish&lt;/code&gt; folder to Fedora&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;even transferring the CashyOS config folder doesn&amp;#8217;t work&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;so what did i do?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;copying and pasting, mainly&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_the_solution_that_worked&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_the_solution_that_worked&quot;&gt;&lt;/a&gt;the solution that worked&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;is kinda involved but well worth it imho&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;first, let&amp;#8217;s start with aliases&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_aliases&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_aliases&quot;&gt;&lt;/a&gt;aliases&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;CachyOS has some good ones but i came up with a few of my own&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;from my &lt;a href=&quot;/src/how-to-configure-your-fish-prompt/alias.fish&quot;&gt;&lt;code&gt;~/.config/fish/conf.d/alias.fish&lt;/code&gt;&lt;/a&gt; file:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;# Replace ls with eza
+alias la &apos;eza -a --color=always --group-directories-first --icons&apos;  # all files and dirs
+alias ll &apos;eza -l --color=always --group-directories-first --icons&apos;  # long format
+alias lt &apos;eza -aT --color=always --group-directories-first --icons&apos; # tree listing
+alias l. &quot;eza -a | grep -e &apos;^\.&apos;&quot;                                   # show only dotfiles
+alias lal &apos;eza -al --color=always --group-directories-first --icons&apos;
+alias ls &apos;eza --color=always --group-directories-first --icons&apos;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://bridgetownrb.com/docs/&quot;&gt;Bridgetown docs&lt;/a&gt; for more info on how to get the most out of Bridgetown. File all bugs/feature requests at &lt;a href=&quot;https://github.com/bridgetownrb/bridgetown&quot;&gt;Bridgetown’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/bridgetownrb/bridgetown/discussions&quot;&gt;Bridgetown Discussions on GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>Sarah Rogue</name></author></entry></feed>
+# Common use
+alias psmem &apos;ps auxf | sort -nr -k 4&apos;
+alias psmem10 &apos;ps auxf | sort -nr -k 4 | head -10&apos;
+alias .. &apos;cd ..&apos;
+alias ... &apos;cd ../..&apos;
+alias .... &apos;cd ../../..&apos;
+alias ..... &apos;cd ../../../..&apos;
+alias ...... &apos;cd ../../../../..&apos;
+alias dir &apos;dir --color=auto&apos;
+alias vdir &apos;vdir --color=auto&apos;
+alias grep &apos;grep --color=auto&apos;
+alias fgrep &apos;grep -F --color=auto&apos;
+alias egrep &apos;grep -E --color=auto&apos;
+alias hw &apos;hwinfo --short&apos;                                           # Hardware Info
+
+# Get the error messages from journalctl
+alias jctl &quot;journalctl -p 3 -xb&quot;
+
+# root commands
+alias dnf &apos;sudo dnf5&apos;
+alias reboot &apos;sudo reboot&apos;
+alias shutdown &apos;sudo systemctl poweroff&apos;
+alias systemctl &apos;sudo systemctl&apos;
+alias update &apos;sudo dnf5 --refresh update&apos;
+alias yum &apos;sudo dnf5&apos;
+
+# use nvim
+alias vi nvim
+# don&apos;t use the bash version of which
+alias which &apos;type -P&apos;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: be sure you have &lt;code&gt;eza&lt;/code&gt; installed as it isn&amp;#8217;t, by default, on Fedora 42. if you don&amp;#8217;t, your &lt;code&gt;ls&lt;/code&gt; command will quit working due to the alias&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;sudo dnf install eza&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;finally, let&amp;#8217;s move onto the epic CachyOS &lt;code&gt;fish&lt;/code&gt; prompt&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_main_prompt&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_main_prompt&quot;&gt;&lt;/a&gt;main prompt&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;this one had me racking my small, tiny brain&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;but&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i finally figured it out&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;the &lt;a href=&quot;/src/how-to-configure-your-fish-prompt/fish_prompt.fish&quot;&gt;&lt;code&gt;funced fish_prompt&lt;/code&gt;&lt;/a&gt; command lets you edit your prompt&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;down at the very bottom of the file, i changed it to:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;if set -q VIRTUAL_ENV
+    set -f venv_name (basename &quot;$VIRTUAL_ENV&quot;)&quot; &quot;
+else
+    set -f venv_name &quot;&quot;
+end
+
+echo -s \n (set_color red) (prompt_pwd -d 70) (set_color brblack) (echo (fish_vcs_prompt) | sed &apos;s/[()]//g&apos;)
+echo -n -s $venv_name $normal $suffix &quot; &quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;what i learned is that &lt;code&gt;set -q&lt;/code&gt; queries to see if the variable is set or unset&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;set -f&lt;/code&gt; sets the variable for the scope of the function&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;also, in order to get the virtual environment part to work&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;you need to add the following line to your &lt;a href=&quot;/src/how-to-configure-your-fish-prompt/environ.fish&quot;&gt;&lt;code&gt;~/.config/fish/conf.d/environ.fish&lt;/code&gt;&lt;/a&gt; file:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;set -gx VIRTUAL_ENV_DISABLE_PROMPT true&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;_conclusion&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#_conclusion&quot;&gt;&lt;/a&gt;conclusion&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;i learned a lot about &lt;code&gt;fish&lt;/code&gt; and got a bunch of epic aliases for my Fedora 42 OS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;you can also &lt;a href=&quot;/src/how-to-configure-your-fish-prompt/fish-config.tar.xz&quot;&gt;download&lt;/a&gt; my &lt;code&gt;fish&lt;/code&gt; configuration which has everything done for you&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;rouge highlight&quot;&gt;&lt;code&gt;&amp;gt; ~/.config/
+&amp;gt; rm -rf fish    # unless you&apos;ve already made changes
+&amp;gt; tar Jxvf ~/Downloads/fish-config.tar.xz&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;thank you for reading and have a fun day!!!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Sarah Rogue</name></author></entry></feed>

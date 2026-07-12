@@ -3,21 +3,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Begin Bridgetown SEO tag v7.0.1 -->
-<title>welcome to my new website | Sarah’s Website</title>
-<meta property="og:title" content="welcome to my new website">
+<title>How To Configure Your Fish Prompt | Sarah’s Website</title>
+<meta property="og:title" content="How To Configure Your Fish Prompt">
 <meta name="author" content="Sarah Rogue">
 <meta property="og:locale" content="en_GB">
-<meta name="description" content="Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, raising her kids, and more. she is a geeky emo girl who loves to share">
-<meta property="og:description" content="Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, raising her kids, and more. she is a geeky emo girl who loves to share">
-<link rel="canonical" href="http://localhost:4000/">
-<meta property="og:url" content="http://localhost:4000/">
+<meta name="description" content="shows how to get the CachyOS features of the command shell fish into other GNU/Linux like Fedora 42">
+<meta property="og:description" content="shows how to get the CachyOS features of the command shell fish into other GNU/Linux like Fedora 42">
+<link rel="canonical" href="http://localhost:4000/gnu-linux/2025/08/09/how-to-configure-your-fish-prompt/">
+<meta property="og:url" content="http://localhost:4000/gnu-linux/2025/08/09/how-to-configure-your-fish-prompt/">
 <meta property="og:site_name" content="Sarah’s Website">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2026-07-12T04:30:23-04:00">
+<meta property="article:published_time" content="2025-08-09T04:18:51-04:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="welcome to my new website">
+<meta property="twitter:title" content="How To Configure Your Fish Prompt">
 <meta name="twitter:site" content="@SarahRogue81">
-<meta name="twitter:creator" content="@SarahRogue81">
+<meta name="twitter:creator" content="@Sarah Rogue">
 <!-- End Bridgetown SEO tag -->
 
 
@@ -225,35 +225,212 @@ slot[name=nav]::slotted(*) {
       <main-contents data-pagefind-body>
         <article class="">
 
-<h1>welcome to my new website</h1>
+<h1>How To Configure Your Fish Prompt</h1>
 
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>welcome to the ultimate digital sandbox where we bend operating systems to our will — because default settings are for the weak!</p>
-</div>
-<div class="paragraph">
-<p>this corner of the web still serves up all your favourite tech chaos, from custom Linux shell prompt wizardry and running Windows inside Docker, to occasional holiday cheer, and existential cartoon tunes</p>
+<p>first of all, i love the command shell <code>fish</code>!!!</p>
 </div>
 <div class="paragraph">
 <p>but</p>
 </div>
 <div class="paragraph">
-<p>we are officially entering our silicon-efficient era:</p>
+<p>i’m a complete noob when it comes to <code>fish</code> and fishing as well</p>
 </div>
 <div class="paragraph">
-<p>expect this space to get heavily infected with ARM64 fever as we dive deep into the trenches of Android, Windows 11 (ARM64), Linux (ARM64), and whatever the heck Google is cooking up with the new Googlebooks</p>
+<p>however</p>
 </div>
 <div class="paragraph">
-<p>yes, we are going full mobile-architecture-adjacent, and no, i will not apologize for the sass along the way</p>
+<p>i love the way <code>fish</code> is setup on <a href="https://cachyos.org/" target="_blank">CashyOS</a> but when i switched to <a href="https://www.fedoraproject.org/" target="_blank">Fedora</a> 42, i missed all of the epic CashyOS features that made <code>fish</code> even better</p>
 </div>
 <div class="paragraph">
-<p>grab a coffee, install your dependencies, and try not to break your bootloader</p>
+<p>i felt like i had to do something — something like this:</p>
+</div>
+<div class="imageblock article-icon">
+<div class="content">
+<img src="/images/how-to-configure-your-fish-prompt/python-virtual-environment.webp" alt="command prompt that i want for fish" loading="lazy">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_simple_solution"><a class="anchor" href="#_the_simple_solution"></a>the simple solution <a href="#_the_simple_solution" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>does’t work</p>
+</div>
+<div class="paragraph">
+<p>and that would be transferring my existing <code>~/.config/fish</code> folder to Fedora</p>
+</div>
+<div class="paragraph">
+<p>even transferring the CashyOS config folder doesn’t work</p>
+</div>
+<div class="paragraph">
+<p>so what did i do?</p>
+</div>
+<div class="paragraph">
+<p>copying and pasting, mainly</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_solution_that_worked"><a class="anchor" href="#_the_solution_that_worked"></a>the solution that worked <a href="#_the_solution_that_worked" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>is kinda involved but well worth it imho</p>
+</div>
+<div class="paragraph">
+<p>first, let’s start with aliases</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_aliases"><a class="anchor" href="#_aliases"></a>aliases <a href="#_aliases" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CachyOS has some good ones but i came up with a few of my own</p>
+</div>
+<div class="paragraph">
+<p>from my <a href="/src/how-to-configure-your-fish-prompt/alias.fish"><code>~/.config/fish/conf.d/alias.fish</code></a> file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code># Replace ls with eza
+alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll 'eza -l --color=always --group-directories-first --icons'  # long format
+alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l. "eza -a | grep -e '^\.'"                                   # show only dotfiles
+alias lal 'eza -al --color=always --group-directories-first --icons'
+alias ls 'eza --color=always --group-directories-first --icons'
+
+# Common use
+alias psmem 'ps auxf | sort -nr -k 4'
+alias psmem10 'ps auxf | sort -nr -k 4 | head -10'
+alias .. 'cd ..'
+alias ... 'cd ../..'
+alias .... 'cd ../../..'
+alias ..... 'cd ../../../..'
+alias ...... 'cd ../../../../..'
+alias dir 'dir --color=auto'
+alias vdir 'vdir --color=auto'
+alias grep 'grep --color=auto'
+alias fgrep 'grep -F --color=auto'
+alias egrep 'grep -E --color=auto'
+alias hw 'hwinfo --short'                                           # Hardware Info
+
+# Get the error messages from journalctl
+alias jctl "journalctl -p 3 -xb"
+
+# root commands
+alias dnf 'sudo dnf5'
+alias reboot 'sudo reboot'
+alias shutdown 'sudo systemctl poweroff'
+alias systemctl 'sudo systemctl'
+alias update 'sudo dnf5 --refresh update'
+alias yum 'sudo dnf5'
+
+# use nvim
+alias vi nvim
+# don't use the bash version of which
+alias which 'type -P'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>WARNING</strong>: be sure you have <code>eza</code> installed as it isn’t, by default, on Fedora 42. if you don’t, your <code>ls</code> command will quit working due to the alias</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>sudo dnf install eza</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>finally, let’s move onto the epic CachyOS <code>fish</code> prompt</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_main_prompt"><a class="anchor" href="#_main_prompt"></a>main prompt <a href="#_main_prompt" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>this one had me racking my small, tiny brain</p>
+</div>
+<div class="paragraph">
+<p>but</p>
+</div>
+<div class="paragraph">
+<p>i finally figured it out</p>
+</div>
+<div class="paragraph">
+<p>the <a href="/src/how-to-configure-your-fish-prompt/fish_prompt.fish"><code>funced fish_prompt</code></a> command lets you edit your prompt</p>
+</div>
+<div class="paragraph">
+<p>down at the very bottom of the file, i changed it to:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>if set -q VIRTUAL_ENV
+    set -f venv_name (basename "$VIRTUAL_ENV")" "
+else
+    set -f venv_name ""
+end
+
+echo -s \n (set_color red) (prompt_pwd -d 70) (set_color brblack) (echo (fish_vcs_prompt) | sed 's/[()]//g')
+echo -n -s $venv_name $normal $suffix " "</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>what i learned is that <code>set -q</code> queries to see if the variable is set or unset</p>
+</div>
+<div class="paragraph">
+<p>and</p>
+</div>
+<div class="paragraph">
+<p><code>set -f</code> sets the variable for the scope of the function</p>
+</div>
+<div class="paragraph">
+<p>also, in order to get the virtual environment part to work</p>
+</div>
+<div class="paragraph">
+<p>you need to add the following line to your <a href="/src/how-to-configure-your-fish-prompt/environ.fish"><code>~/.config/fish/conf.d/environ.fish</code></a> file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>set -gx VIRTUAL_ENV_DISABLE_PROMPT true</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_conclusion"><a class="anchor" href="#_conclusion"></a>conclusion <a href="#_conclusion" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>i learned a lot about <code>fish</code> and got a bunch of epic aliases for my Fedora 42 OS</p>
+</div>
+<div class="paragraph">
+<p>you can also <a href="/src/how-to-configure-your-fish-prompt/fish-config.tar.xz">download</a> my <code>fish</code> configuration which has everything done for you</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>&gt; ~/.config/
+&gt; rm -rf fish    # unless you've already made changes
+&gt; tar Jxvf ~/Downloads/fish-config.tar.xz</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>thank you for reading and have a fun day!!!</p>
+</div>
+</div>
 </div>
 
 <wll-post-metadata>
   <wa-icon class="wll-decoration" name="newspaper"></wa-icon>
-  <p><wa-icon name="calendar"></wa-icon> <time>July 12, 2026</time></p>
+  <p><wa-icon name="calendar"></wa-icon> <time>August 09, 2025</time></p>
   <p><wa-icon name="user-pen"></wa-icon> <wll-post-author>by Sarah Rogue</wll-post-author></p>
+    <p><wa-icon name="paperclip"></wa-icon> 
+      <wll-post-category>GNU/Linux</wll-post-category>
+    </p>
 </wll-post-metadata>
 
 

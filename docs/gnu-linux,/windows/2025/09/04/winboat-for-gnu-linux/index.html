@@ -1,0 +1,542 @@
+<!DOCTYPE html><html lang="en-GB" class="wa-palette-default"><head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Begin Bridgetown SEO tag v7.0.1 -->
+<title>WinBoat for GNU/Linux | Sarah’s Website</title>
+<meta property="og:title" content="WinBoat for GNU/Linux">
+<meta name="author" content="Sarah Rogue">
+<meta property="og:locale" content="en_GB">
+<meta name="description" content="WinBoat is a GNU/Linux app that runs various versions of Windows">
+<meta property="og:description" content="WinBoat is a GNU/Linux app that runs various versions of Windows">
+<link rel="canonical" href="http://localhost:4000/gnu-linux,/windows/2025/09/04/winboat-for-gnu-linux/">
+<meta property="og:url" content="http://localhost:4000/gnu-linux,/windows/2025/09/04/winboat-for-gnu-linux/">
+<meta property="og:site_name" content="Sarah’s Website">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-09-04T04:14:51-04:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="WinBoat for GNU/Linux">
+<meta name="twitter:site" content="@SarahRogue81">
+<meta name="twitter:creator" content="@Sarah Rogue">
+<!-- End Bridgetown SEO tag -->
+
+
+<link rel="stylesheet" href="/css/styles.css">
+
+<link rel="stylesheet" href="/_bridgetown/static/index.FORLWZ4W.css">
+<script src="/_bridgetown/static/index.HZM2UJYO.js" defer></script>
+<script type="module">let lastmod = 0
+let reconnectAttempts = 0
+function startLiveReload() {
+  const connection = new EventSource("/_bridgetown/live_reload")
+
+  connection.addEventListener("message", event => {
+    reconnectAttempts = 0
+    if (document.querySelector("#bridgetown-build-error")) document.querySelector("#bridgetown-build-error").close()
+    if (event.data == "reloaded!") {
+      location.reload()
+    } else {
+      const newmod = Number(event.data)
+      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
+        location.reload()
+      } else {
+        lastmod = newmod
+      }
+    }
+  })
+
+  connection.addEventListener("builderror", event => {
+    let dialog = document.querySelector("#bridgetown-build-error")
+    if (!dialog) {
+      dialog = document.createElement("dialog")
+      dialog.id = "bridgetown-build-error"
+      dialog.style.borderColor = "red"
+      dialog.style.fontSize = "110%"
+      dialog.innerHTML = `
+        <p style="color:red">There was an error when building the site:</p>
+        <output><pre></pre></output>
+        <p><small>Check your Bridgetown logs for further details.</small></p>
+      `
+      document.body.appendChild(dialog)
+      dialog.showModal()
+    }
+    dialog.querySelector("pre").textContent = JSON.parse(event.data)
+  })
+
+  connection.addEventListener("error", () => {
+    if (connection.readyState === 2) {
+      // reconnect with new object
+      connection.close()
+      reconnectAttempts++
+      if (reconnectAttempts < 25) {
+        console.warn("Live reload: attempting to reconnect in 3 seconds...")
+        setTimeout(() => startLiveReload(), 3000)
+      } else {
+        console.error("Too many live reload connections failed. Refresh the page to try again.")
+      }
+    }
+  })
+}
+
+startLiveReload()
+</script>
+
+  </head>
+  <body class="wll-code-dark post ">
+    <template shadowrootmode="open">
+      <style>:host {
+  --layout-padding: var(--wll-layout-padding);
+  --header-block-padding: calc(var(--layout-padding) / 1.5) calc(var(--layout-padding) / 3);
+  --sidebar-start-min-inline-size: calc(var(--wa-space-scale) * 15rem);
+  --sidebar-start-max-inline-size: calc(var(--wa-space-scale) * 28rem);
+  --sidebar-end-min-inline-size: calc(var(--wa-space-scale) * 15rem);
+  --sidebar-end-max-inline-size: calc(var(--wa-space-scale) * 25rem);
+
+  display: grid;
+  grid-template: auto 1fr auto / auto minmax(100px, 1fr) auto;
+}
+
+slot {
+  display: block;
+
+  &::slotted(*) {
+    padding: var(--layout-padding);
+  }
+}
+
+slot[name=header] {
+  grid-column: 1 / 4;
+
+  &::slotted(*) {
+    padding-block: var(--header-block-padding);
+  }
+}
+
+slot[name=sidebar-start] {
+  grid-column: 1 / 2;
+
+  &::slotted(*) {
+    width: clamp(var(--sidebar-start-min-inline-size), 25vw, var(--sidebar-start-max-inline-size));
+  }
+}
+
+slot[name=content] {
+  grid-column: 2 / 3;
+}
+
+slot[name=sidebar-end] {
+  grid-column: 3 / 4;
+
+  &::slotted(*) {
+    width: clamp(var(--sidebar-end-min-inline-size), 22vw, var(--sidebar-end-max-inline-size));
+  }
+}
+
+slot[name=footer] {
+  grid-column: 1 / 4;
+}
+
+slot[name=skip-to-content] {
+  display: contents;
+}
+
+@media screen and (max-width: 1099px) {
+  slot[name=sidebar-end] {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :host {
+    grid-template-rows: auto auto 1fr auto;
+  }
+
+  slot[name=sidebar-start] {
+    grid-column: 1 / 4;
+
+    &::slotted(*) {
+      width: 100%;
+    }
+  }
+
+  slot[name=sidebar-end] {
+    &::slotted(*) {
+      width: calc(var(--sidebar-end-min-inline-size) * 1.25);
+    }
+  }
+}
+</style>
+
+<slot name="skip-to-content"></slot>
+<slot name="header" part="header"></slot>
+<slot name="sidebar-start" part="sidebar-start"></slot>
+<slot name="content" part="content"></slot>
+<slot name="sidebar-end" part="sidebar-end"></slot>
+<slot name="footer" part="footer"></slot>
+
+</template>    <header slot="header">
+  <template shadowrootmode="open">
+    <style>#bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--navbar-gap);
+}
+
+figure {
+  margin: 0;
+}
+
+slot[name=nav]::slotted(*) {
+  display: flex;
+  gap: var(--navbar-gap);
+}
+</style>
+
+<div id="bar">
+  <figure>
+    <slot name="logo"></slot>
+  </figure>
+
+  <slot name="search"></slot>
+
+  <nav>
+    <slot name="nav"></slot>
+  </nav>
+</div>
+
+</template>
+  <a slot="logo" href="/">
+      <img src="/images/logo.webp" alt="Website Logo">
+      <span>Sarah's Website</span>
+  </a>
+
+    <a href="/search" slot="search"><wa-icon label="Search" name="search"></wa-icon> <span class="hide-for-mobile">Search <kbd style="vertical-align: 10%">⌘K</kbd></span></a>
+
+  <ul slot="nav"><li item-depth="1"><a href="/blog"> Blog</a></li><li item-depth="1"><a href="/about"> About</a></li><li item-depth="1"><a href="https://mastodon.social/@SarahRogue81" target="_blank"><wa-icon name="mastodon" family="brands" label="Mastodon"></wa-icon></a></li></ul>
+</header>
+
+
+    <main slot="content" id="content">
+      <div hidden class="show-mid-screen">
+        <button type="button" class="wa-outlined wa-size-s" onclick="document.body.classList.toggle('sidebar-end-open')"><wa-icon name="list"></wa-icon></button>
+      </div>
+
+      <main-contents data-pagefind-body>
+        <article class="">
+
+<h1>WinBoat for GNU/Linux</h1>
+
+
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://www.winboat.app/" target="_blank">WinBoat</a> is a GNU/Linux app that runs various versions of Windows. i fucked up the first time installing it and had a bitch of a time uninstalling it</p>
+</div>
+<div class="paragraph">
+<p>but first</p>
+</div>
+<div class="paragraph">
+<p>i’ll describe how i got it running before the install</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_initial_install_before_i_fucked_it_up"><a class="anchor" href="#_initial_install_before_i_fucked_it_up"></a>initial install, before i fucked it up <a href="#_initial_install_before_i_fucked_it_up" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WinBoat’s GitHub <a href="https://github.com/TibixDev/winboat" target="_blank">repo</a> has the <a href="https://github.com/TibixDev/winboat/releases" target="_blank">current release</a> as an AppImage</p>
+</div>
+<div class="paragraph">
+<p>after the download, go to the download folder on the command line and execute</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>chmod +x winboat-X.Y.Z.AppImage</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>where X, Y, and Z are the version number. in my case, v0.7.1. <strong>note</strong>: this is beta software and earlier today, it was v0.6.13 but changed rn when i just now checked for this writing</p>
+</div>
+<div class="sect2">
+<h3 id="_before_first_run"><a class="anchor" href="#_before_first_run"></a>before first run <a href="#_before_first_run" class="heading-anchor">#</a></h3>
+<div class="paragraph">
+<p>install Docker and Docker Compose</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>sudo pacman -S docker docker-compose
+
+sudo systemctl enable docker
+sudo systemctl start docker
+
+sudo usermod -a -G docker username</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>to start, i use CachyOS, an ArchLinux distro. the first line will probably be different for your distro. the <code>username</code> at the end is your user name that you use to login to your Desktop Environment</p>
+</div>
+<div class="paragraph">
+<p>finally, be sure the correct Kernel Modules are running</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>echo -e "ip_tables\niptable_nat" | sudo tee /etc/modules-load.d/iptables.conf
+sudo reboot</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_appimagelaucher"><a class="anchor" href="#_appimagelaucher"></a>AppImageLaucher <a href="#_appimagelaucher" class="heading-anchor">#</a></h3>
+<div class="paragraph">
+<p>believe it or not, i’d rather not use the terminal for launching apps and i have an <code>apps</code> folder to prove it. so i use AppImageLauncher. to install</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>sudo pacman -S appimagelauncher</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_then_i_fucked_it_all_up"><a class="anchor" href="#_then_i_fucked_it_all_up"></a>then i fucked it all up <a href="#_then_i_fucked_it_all_up" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>when you first run WinBoat, from terminal or otherwise, it displays some sort of BIOS or UEFI. i skipped the FreeRDP step of the pre-installation, which is required for a Remote Desktop Connection. i saw the text and the logo but it went by so fast that i couldn’t read it. by the time i went back to GitHub to read the README, i was convinced that, somehow, me not installing FreeRDP caused that text to display</p>
+</div>
+<div class="paragraph">
+<p>by that time, the Windows 11 installer was in the middle of downloading and i closed WinBoat thinking that the next time i opened it, it would start over</p>
+</div>
+<div class="paragraph">
+<p>but</p>
+</div>
+<div class="paragraph">
+<p>it did not start over</p>
+</div>
+<div class="paragraph">
+<p>it ran the WinBoat again and, of course, nothing happened</p>
+</div>
+<div class="sect2">
+<h3 id="_so_to_uninstall_the_docker_image"><a class="anchor" href="#_so_to_uninstall_the_docker_image"></a>so, to uninstall the docker image <a href="#_so_to_uninstall_the_docker_image" class="heading-anchor">#</a></h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>sudo docker volume rm winboat
+sudo rm -rf /var/lib/docker/volumes</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>that last line might be unnecessary but i did it anyway (thx Gemini deep research)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_and_so_i_started_over"><a class="anchor" href="#_and_so_i_started_over"></a>and so i started over <a href="#_and_so_i_started_over" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WinBoat uses QEMU from your default web browser and, below are some pics of the installation and what i did after</p>
+</div>
+<div class="sect2">
+<h3 id="_pics"><a class="anchor" href="#_pics"></a>pics <a href="#_pics" class="heading-anchor">#</a></h3>
+<div class="paragraph">
+<p>WinBoat lets you install a number of Windows versions, i picked 11 Pro</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/01-winboat-windows-11-download.webp" alt="Windows 11 downloading" loading="lazy">
+</div>
+</div>
+<div class="paragraph">
+<p>then the install begins</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/02-winboat-installing-windows-11.webp" alt="Windows 11 installing" loading="lazy">
+</div>
+</div>
+<div class="paragraph">
+<p>after some restarts, Windows opens with you already logged in</p>
+</div>
+<div class="paragraph">
+<p>sorry that i didn’t mention it before</p>
+</div>
+<div class="paragraph">
+<p>but</p>
+</div>
+<div class="paragraph">
+<p>WinBoat, before it creates the Docker image, prompts for RAM, Cores, and Storage Size</p>
+</div>
+<div class="paragraph">
+<p>i picked 8 GB, 4, and 64 GB respectively</p>
+</div>
+<div class="paragraph">
+<p>it also asks for which version of Windows you want and a password to login - this can be anything as it doesn’t link to your Microsoft Account</p>
+</div>
+<div class="paragraph">
+<p>the next thing i did was a Windows Update</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/03-winboat-windows-update.webp" alt="Windows Update in grogress" loading="lazy">
+</div>
+</div>
+<div class="paragraph">
+<p>and also updated the apps in the Microsoft Store</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/04-winboat-microsoft-store-updates.webp" alt="Microsoft Store apps updating" loading="lazy">
+</div>
+</div>
+<div class="paragraph">
+<p>the apps all got updated first and then Windows Update finished and prompted for a reboot, which i did</p>
+</div>
+<div class="paragraph">
+<p>i had to log in, with password, and was greeted with this minimal desktop and start menu</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/05-winboat-windows-11-desktop.webp" alt="Windows 11 desktop" loading="lazy">
+</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<img src="/images/winboat-for-gnu-linux/06-winboat-windows-11-start-menu.webp" alt="Windows 11 start menu" loading="lazy">
+</div>
+</div>
+<div class="paragraph">
+<p>the next Windows update simply installed Defender antivirus signatures, which didn’t require a reboot</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_caveats"><a class="anchor" href="#_caveats"></a>caveats <a href="#_caveats" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>because it is running QEMU in a default web browser, gaming isn’t an option - save maybe the Microsoft games, like Mahjong, Minesweeper, Jigsaw, etc</p>
+</div>
+<div class="paragraph">
+<p>please use Steam/Proton directly on your GNU/Linux machine for gaming, even simple games</p>
+</div>
+<div class="paragraph">
+<p>updating WinBoat to the current version involves stopping a WinBoat Windows service and deleting 16 lines at the bottom of the <code>~/.local/share/applications/appimagekit_*-winboat.desktop</code> file plus removing the old AppImage in your <code>~/Applications</code> folder</p>
+</div>
+<div class="paragraph">
+<p>no Bluetooth, microphone input, audio output</p>
+</div>
+<div class="paragraph">
+<p>stopping QEMU from within the WinBoat app does a hard power-off, i believe (but i could be wrong). pausing works just fine. a shutdown within the Windows QEMU environment is the correct way</p>
+</div>
+<div class="paragraph">
+<p>it’s constantly prompting me to stop the WinBoatGuestServer</p>
+</div>
+<div class="paragraph">
+<p>the Windows 11 Pro install, upgrades and app updates consume 20.5 GB of storage</p>
+</div>
+<div class="paragraph">
+<p>simply moving the cursor isn’t smooth</p>
+</div>
+<div class="paragraph">
+<p>but</p>
+</div>
+<div class="paragraph">
+<p>it gets the job done</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_last_words"><a class="anchor" href="#_last_words"></a>last words <a href="#_last_words" class="heading-anchor">#</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>this project is off to a great start but i doubt i will use it for anything</p>
+</div>
+<div class="paragraph">
+<p>i can run Microsoft 365 in my web browser on GNU/Linux and there’s an app for everything else i want to do</p>
+</div>
+<div class="paragraph">
+<p>i’ve tested running games on CachyOS and the fps is the same as on my native Windows 11 partition</p>
+</div>
+<div class="paragraph">
+<p>so, i really have no need for Windows. sorry, Microsoft</p>
+</div>
+<div class="paragraph">
+<p>but this project is awesome, a fave, and <strong>the</strong> tech talk on <a href="https://discord.com/" target="_blank">Discord</a></p>
+</div>
+<div class="paragraph">
+<p>hope this information helps</p>
+</div>
+</div>
+</div>
+
+<wll-post-metadata>
+  <wa-icon class="wll-decoration" name="newspaper"></wa-icon>
+  <p><wa-icon name="calendar"></wa-icon> <time>September 04, 2025</time></p>
+  <p><wa-icon name="user-pen"></wa-icon> <wll-post-author>by Sarah Rogue</wll-post-author></p>
+    <p><wa-icon name="paperclip"></wa-icon> 
+      <wll-post-category>GNU/Linux,</wll-post-category>
+    
+      <wll-post-category>Windows</wll-post-category>
+    </p>
+</wll-post-metadata>
+
+
+</article>
+
+
+      </main-contents>
+
+      <wll-back-to-top>
+        <button><wa-icon name="circle-chevron-up"></wa-icon></button>
+      </wll-back-to-top>
+    </main>
+
+    <aside slot="sidebar-start">
+        <p>Sarah blogs about everthing tech and gaming - from Android, ChromeOS, Googlebooks, coding, Windows 11, and Linux to gaming, raising her kids, and more. she is a geeky emo girl who loves to share</p>
+
+
+  <details id="follow-menu" open>
+    <summary><h2><wa-icon class="show-small-screen" name="bars"></wa-icon> Follow Me</h2></summary>
+
+    <nav>
+      <ul><li item-depth="1"><a href="/feed.xml"><wa-icon name="rss"></wa-icon> Newsfeed</a></li><li item-depth="1"><a href="https://bsky.app/profile/sarah-rogue.me" target="_blank"><wa-icon name="bluesky" family="brands"></wa-icon> @Bluesky</a></li><li item-depth="1"><a href="https://github.com/SarahRogue81" target="_blank"><wa-icon name="github" family="brands"></wa-icon> @GitHub</a></li><li item-depth="1"><a href="https://x.com/SarahRogue81" target="_blank"><wa-icon name="twitter" family="brands"></wa-icon> @Twitter</a></li></ul>
+    </nav>
+
+
+</details>
+
+    </aside>
+
+    <aside slot="sidebar-end" hidden>
+      <div class="show-mid-screen">
+        <button type="button" class="wa-outlined wa-size-s" onclick="document.body.classList.toggle('sidebar-end-open')"><wa-icon name="close"></wa-icon></button>
+      </div>
+      <h2>Contents</h2>
+
+      
+
+      <!-- TOC insertion -->
+    </aside>
+
+    <footer slot="footer">
+  Contact me at <a href="mailto:emo-girl@sarah-rogue.me">emo-girl@sarah-rogue.me</a>
+</footer>
+
+    <a slot="skip-to-content" class="skip-to-content-link" href="#content">Skip to content</a>
+    <wll-search-dialog slot="footer">
+  <wa-dialog id="search-dialog" label="Search" without-header light-dismiss>
+    <wll-dialog-inner>
+    </wll-dialog-inner>
+
+    <wa-button slot="footer" size="s" appearance="outlined" variant="brand" pill data-dialog="close">
+      <wa-icon name="circle-xmark" slot="start"></wa-icon>
+      Close
+    </wa-button>
+  </wa-dialog>
+</wll-search-dialog>
+
+  
+
+</body></html>
