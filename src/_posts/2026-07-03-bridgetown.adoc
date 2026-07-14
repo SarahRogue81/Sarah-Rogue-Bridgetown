@@ -15,7 +15,7 @@ but
 
 deployment is hard - especially on GitHub Pages or Cloudflare - this site is hosted on Cloudflare, and it is my preferred deployment option
 
-since both GitHub Page and Cloudflare have similar, but slightly different, set up steps, i will describe both deployment options here
+since both GitHub Pages and Cloudflare have similar, but slightly different, set up steps, i will describe both deployment options here
 
 == Deployment Option 1: GitHub Pages (read this if doing Deployment Option 2, anyway)
 
@@ -66,7 +66,7 @@ in `esbuild.config.js`, moke sure the following line reads (and not "output"):
 in `config/esbuild.defaults.js`, make sure the following line reads (and not "output"):
 
 ```js
-  "destination" "docs"
+  "destination": "docs",
 ```
 
 ==== Step 4: if you are using Willamette
@@ -102,7 +102,7 @@ why?
 
 `pagefind` (for searching) has "output" hardcoded in it, and your site needs to build to `destination: docs` (see bridgetown.config.yml)
 
-this fix uses `#{appendix.description}`, in `bridgetown.config.yml`, to tell `pagefind` to use the correct non-hardcoded folder
+this fix uses `#{config.destination}`, in `bridgetown.config.yml`, to tell `pagefind` to use the correct folder
 
 ==== Step 5:
 
@@ -156,7 +156,7 @@ again, if you're not using the Willamette plugin, you don't need to worry about 
 . choose `Create application` in the upper, right
 . choose `Continue with GitHub` or `Continue with GitLab`
 . select your repo
-. for `Build command` enter `bin/bridgetown depoloy`
+. for `Build command` enter `bin/bridgetown deploy`
 . select `Deploy`
 
 the deployment will start - but it's not what you want exactly
