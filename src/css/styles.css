@@ -1,7 +1,11 @@
-div.paragraph,
+div.imageblock,
 div.listingblock,
-div.imageblock {
+div.paragraph {
     padding-bottom: 1rem;
+}
+
+pre.rouge.highlight {
+    background-color: #AAAAAA;
 }
 
 .sr-text-centre {
