@@ -1,9 +1,9 @@
-= Bridgetown
+= Bridgetown Deployments
 :author: Sarah Rogue
 :categories: Bridgetown
 :date: Mon, 13 Jul 2026 22:46:05 -0400
 :description: this site uses Bridgetown, a Ruby-based static site generator
-:title: Bridgetown
+:title: Bridgetown Deployments 
 
 this site uses Bridgetown, a Ruby-based static site generator
 
