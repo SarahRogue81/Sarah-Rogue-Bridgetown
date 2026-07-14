@@ -177,6 +177,18 @@ this is a one time step
 
 from now on, every time you push to GitHub or GitLab, Cloudflare will automatically deploy your site in production mode
 
+=== wrangler
+
+Cloudflare uses `npx wrangler`` exlusively
+
+as such
+
+it does a Pull Request to your GitHub or GitLab repo, which you need to merge
+
+i used the GitHub webapp to do this - but there's many ways to do this
+
+just be sure that it gets done
+
 == final notes
 
 i use GitHub exlusively because the GitHub app or webapp allows me to add, modify, and commit posts and pages, and i feel GitHub goes out of their way to make this the easiest way to do this
