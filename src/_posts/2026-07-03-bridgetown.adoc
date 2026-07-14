@@ -1,0 +1,186 @@
+= Bridgetown
+:author: Sarah Rogue
+:categories: Bridgetown
+:date: Mon, 13 Jul 2026 22:46:05 -0400
+:description: this site uses Bridgetown, a Ruby-based static site generator
+:title: Bridgetown
+
+this site uses Bridgetown, a Ruby-based static site generator
+
+it is a fork of Jekyll, and it is designed to be more flexible and powerful than Jekyll
+
+it is also designed to be more user-friendly and easier to use than Jekyll
+
+but
+
+deployment is hard - especially on GitHub Pages or Cloudflare - this site is hosted on Cloudflare, and it is my preferred deployment option
+
+since both GitHub Page and Cloudflare have similar, but slightly different, set up steps, i will describe both deployment options here
+
+== Deployment Option 1: GitHub Pages (read this if doing Deployment Option 2, anyway)
+
+this site isn't hosted on GitHub Pages, but it could be
+
+and
+
+most of the steps done here need to be done for the next deployment option that is mentioned next
+
+=== Steps to deploy to GitHub Pages
+
+first - you need to setup GitHub Pages for your repository
+
+in particular, you use your main branch and use the docs/ folder 
+
+this means that evertime you do a `bin/bridgetown deploy`, and `git commit`, the entiere docs/ folder will be pushed to the main branch, and GitHub Pages will serve the site from there
+
+i don't really like doing this methoid
+
+but like i said
+
+most of the next steps are need for my preferred deployment option anyway
+
+after your GitHub Pages are properly setup (and don't forget to use a Custom Domain - or else Bridgetown won't work - no CSS)
+
+you need to tell Bridgetown to use the docs/ folder and not the output/ folder
+
+here are the steps needed to do that:
+
+==== Step 1:
+
+in `bridgetown.config.yml`, add the following line:
+
+```yaml
+destination: docs
+```
+
+==== Step 2:
+
+in `esbuild.config.js`, moke sure the following line reads (and not "output"):
+
+```js
+  const outputFolder = "docs"
+```
+
+==== Step 3:
+
+in `config/esbuild.defaults.js`, make sure the following line reads (and not "output"):
+
+```js
+  "destination" "docs"
+```
+
+==== Step 4: if you are using Willamette
+
+in `config/initializers.rb`, change the line that says:
+
+```rb
+init :"willamette"
+```
+
+to
+
+```rb
+init :"willamette"
+
+  # Willamette's built-in Pagefind indexing hook hardcodes the "output" folder,
+  # but this site builds to `destination: docs` (see bridgetown.config.yml).
+  # Replace it with a corrected hook that indexes the real destination.
+  Bridgetown::Hooks.instance_variable_get(:@registry)[:site]&.reject! do |registration|
+    registration.event == :post_write &&
+      registration.block.source_location&.first.to_s.include?("willamette")
+  end
+
+  unless Bridgetown.env.test?
+    config.hook :site, :post_write do
+      `rm -rf #{config.destination}/pagefind && npx --yes pagefind --site #{config.destination}`
+      Bridgetown.logger.info "Pagefind:", "Wrote search index"
+    end
+  end
+```
+
+why?
+
+`pagefind` (for searching) has "output" hardcoded in it, and your site needs to build to `destination: docs` (see bridgetown.config.yml)
+
+this fix uses `#{appendix.description}`, in `bridgetown.config.yml`, to tell `pagefind` to use the correct non-hardcoded folder
+
+==== Step 5:
+
+deploy to GitHub Pages:
+
+. be sure that your environmental variable `BRIDGETOWN_ENV` is set to `production`
+. run `bin/bridgetown deploy`
+. `git add .`
+. `git commit -m "Deploy to GitHub Pages"`
+
+'''
+
+and that's pretty much it
+
+**obvious note**: step 5 is always done whenever visual changes are made to the site, and you want to deploy those changes to GitHub Pages
+
+== Deployment Option 2: Cloudflare
+
+this site is hosted on Cloudflare, and it is my preferred deployment option
+
+first, you complete steps 1 to 3 (4 if using Willamette), above
+
+then you add the following line to your `.gitignore` file:
+
+```
+docs/
+```
+
+don't forget to `git commit` these changes and push to your GitHub or GitLab repo
+
+=== Willamette deployments, do this
+
+next, to prevent a build error for Willamette deployments (the error is that `src/_components/shared/navbar.rb` is not a US-ASCII file - it isn't, it's a Unicode UTF-8 file)
+
+make sure to replace the UTF-8 ⌘ character to the ASCII text "Ctrl-"
+
+i did this using `vi` (neovim, in particular) to ensure that the UTF-8 BOM is removed on a simple save (`:x`). some graphical text editors (like VS Code) will not remove the UTF-8 BOM, leaving a Unicode UTF-8 file, which will cause a build error anyway
+
+that is, this Ruby file needs to def be an ASCII file, not UTF-8
+
+i have no clue why Cloudflare is so picky about this, but it is - other platforms, like GitHub Pages and Google Cloud Run, don't care about this
+
+be sure to commit this change and push to GitHub or GitLab
+
+again, if you're not using the Willamette plugin, you don't need to worry about all this
+
+=== finally, the deployment steps
+
+. log into your Cloudflare dashboard
+. under `Compute`, select `Workers & Pages`
+. choose `Create application` in the upper, right
+. choose `Continue with GitHub` or `Continue with GitLab`
+. select your repo
+. for `Build command` enter `bin/bridgetown depoloy`
+. select `Deploy`
+
+the deployment will start - but it's not what you want exactly
+
+it is deploying in development mode, not production
+
+what i did was stop the deployment
+
+then, in Settings, under Build
+
+select the `+ Add` text for `Variables and secrets`
+
+set `Name` to `BRIDGETOWN_ENV` and `Value` to `production`
+
+then, i redeployed
+
+this is a one time step
+
+from now on, every time you push to GitHub or GitLab, Cloudflare will automatically deploy your site in production mode
+
+== final notes
+
+i use GitHub exlusively because the GitHub app or webapp allows me to add, modify, and commit posts and pages, and i feel GitHub goes out of their way to make this the easiest way to do this
+
+i know nothing about GitLab - but i don't think it's possible to make additions and changes this easily
+
+hopefully, i'm wrong
