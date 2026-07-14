@@ -183,7 +183,7 @@ Cloudflare uses `npx wrangler`` exlusively
 
 as such
 
-it does a Pull Request to your GitHub or GitLab repo, which you need to merge
+it does a Pull Request called _Add Cloudflare Workers configuration_ to your GitHub or GitLab repo, which you need to merge
 
 i used the GitHub webapp to do this - but there's many ways to do this
 
