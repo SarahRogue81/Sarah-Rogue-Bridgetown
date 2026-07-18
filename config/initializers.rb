@@ -22,6 +22,7 @@ Bridgetown.configure do |config|
   init :"bridgetown-feed"
   init :"bridgetown-seo-tag"
   init :"bridgetown-sitemap"
+  init :"asciidoc_converter"
 
   # Available options are `erb` (default), `serbea`, or `liquid`
   template_engine "erb"
