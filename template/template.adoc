@@ -1,9 +1,13 @@
 = 
 :author: Sarah Rogue
 :categories: 
+:category:
 :date: 
 :description: 
 :imagesdir: /images/
+:layout: post
+:tag:
+:tags:
 :title: 
 
 

@@ -1,8 +1,9 @@
 = it's Christmas time!
 :author: Sarah Rogue
-:categories: holiday
+:category: holiday
 :date: Thu, 25 Dec 2025 0:00:00 -0400
 :description: Merry Christmas!!!
+:layout: post
 :title: it's Christmas time!
 
 [sr-text-centre sr-xxxlarge]

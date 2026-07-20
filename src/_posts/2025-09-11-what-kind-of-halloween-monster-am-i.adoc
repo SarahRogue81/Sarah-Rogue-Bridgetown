@@ -1,9 +1,10 @@
 = Monster Profile
 :author: Sarah Rogue
-:categories: humour
+:category: humour
 :date: Sat, 11 Sep 2025 03:54:25 -0400
 :description: i asked ChatGPT to read my tweets and figure out what kind of Halloween monster i am. the Tarot card displayed is from Gemini
 :imagesdir: /images/what-kind-of-halloween-monster-am-i
+:layout: post
 :title: Monster Profile: What Kind of Halloween Monster Am I?
 
 image::emo-tech-vampire.webp[emo-ironic Tarot card of me as as Emo Tech Vampire]

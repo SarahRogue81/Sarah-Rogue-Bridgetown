@@ -1,9 +1,11 @@
 = How To Configure Your Fish Prompt
 :author: Sarah Rogue
-:categories: GNU/Linux
+:category: GNU/Linux
 :date: Sat, 09 Aug 2025 04:18:51 -0400
 :description: shows how to get the CachyOS features of the command shell fish into other GNU/Linux like Fedora 42
 :imagesdir: /images/how-to-configure-your-fish-prompt
+:layout: post
+:tags: CachyOS, Fedora, fish
 :title: How To Configure Your Fish Prompt
 
 first of all, i love the command shell `fish`!!!

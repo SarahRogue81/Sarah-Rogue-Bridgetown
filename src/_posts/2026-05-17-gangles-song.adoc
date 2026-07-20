@@ -1,8 +1,9 @@
 = Mask (Gangle's Song) (feat. Marissa Lenti)
 :author: Sarah Rogue
-:categories: humour
+:category: humour
 :date: Sun, 17 May 2026 02:50:25 -0400
 :description: Gangle's song from YouTube
+:layout: post
 :title: Mask (Gangle's Song) (feat. Marissa Lenti)
 
 [source, text]

@@ -1,9 +1,11 @@
 = Using Google Drive on Arch Linux - KDE Plasma
 :author: Sarah Rogue
-:categories: GNU/Linux
+:category: GNU/Linux
 :date: Thu, 25 Sept 2025 04:06:51 -0400
 :description: definitive steps to get Google Drive to work under Dolphin, the KDE file manager
 :imagesdir: /images/using-google-drive-on-archlinux-kde-plasma
+:layout: post
+:tags: CachyOS, Archlinux, KDE Plasma, Dolphin
 :title: Using Google Drive on Arch Linux - KDE Plasma
 
 **NOTE**: i've been told that problems exist with KDE, in general - not just KDE Plasma. so, if you're having trouble getting Google Drive to work with Dolphin, these steps may just work anyway

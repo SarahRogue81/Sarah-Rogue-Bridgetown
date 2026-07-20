@@ -4,6 +4,8 @@
 :date: Thu, 04 Sept 2025 04:14:51 -0400
 :description: WinBoat is a GNU/Linux app that runs various versions of Windows
 :imagesdir: /images/winboat-for-gnu-linux
+:layout: post
+:tags: WinBoat, Windows
 :title: WinBoat for GNU/Linux
 
 https://www.winboat.app/[WinBoat] is a GNU/Linux app that runs various versions of Windows. i fucked up the first time installing it and had a bitch of a time uninstalling it
